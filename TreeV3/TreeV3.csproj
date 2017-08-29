@@ -42,15 +42,15 @@
     <Compile Include="Algorithms\ChildFinder.cs" />
     <Compile Include="Ids\SpecificId.cs" />
     <Compile Include="Nodes\ITreeNode.cs" />
-    <Compile Include="Nodes\Specific\AdjustNodes.cs" />
+    <Compile Include="Nodes\Specific\SpecificNodes.cs" />
     <Compile Include="Nodes\TreeNode.cs" />
     <Compile Include="Payloads\LevelOne.cs" />
     <Compile Include="Payloads\LevelTwo.cs" />
     <Compile Include="Payloads\LevelThree.cs" />
     <Compile Include="Payloads\LevelFour.cs" />
     <Compile Include="Payloads\LevelFive.cs" />
-    <Compile Include="Trees\GenericDataTree.cs" />
-    <Compile Include="Trees\SpecificDataTree.cs" />
+    <Compile Include="Trees\GenericTree.cs" />
+    <Compile Include="Trees\SpecificTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

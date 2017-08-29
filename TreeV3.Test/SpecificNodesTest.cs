@@ -60,7 +60,7 @@ namespace TreeV3.Tests
             node.Should().BeNull();
         }
 
-        SpecificDataTree GetAdjustTree()
+        SpecificTree GetAdjustTree()
         {
             var root = new LevelOneNode(new SpecificId(101), new LevelOne("SR101"));
 
@@ -76,7 +76,7 @@ namespace TreeV3.Tests
                 .Add(new LevelThreeNode(new SpecificId(304), new LevelThree("L304")))
                 .Add(new LevelThreeNode(new SpecificId(305), new LevelThree("L305")));
 
-            return new SpecificDataTree(root);
+            return new SpecificTree(root);
         }
     }
 }
